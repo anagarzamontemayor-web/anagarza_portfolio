@@ -27,7 +27,7 @@ La base de datos cuenta con la siguiente información:
 
 - [Reporte en formato ipynb](A1_1_Analisis_exploratorio_de_Obesidad.ipynb)
 - [Reporte en formato html](A1_1_Analisis_exploratorio_de_Obesidad.html)
-- [Base de datos](A1.1 Obesidad.csv)
+- [Base de datos](Obesidad.csv)
   
 
 
