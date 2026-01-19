@@ -1,4 +1,4 @@
-# Análisis Exploratorio de Datos Básico
+#  Aprendizaje estadístico-automático
 En la actualidad, los niveles de obesidad en la población ha trascendido a ser una problemática de salud pública de relevancia, particularmente en países de Latinoamérica. Ante esta situación, investigadores de la Universidad de la Costa en Colombia analizaron información de individuos provenientes de Colombia, Perú y México con el objetivo de estudiar y evaluar factores relacionados con dichos niveles.
 
 Asimismo, se hará uso de la base de datos perteneciente a la *UCI Machine Learning Repository* bajo el nombre ***“A1.1 Obesidad.csv”***, presentándose variables demográficas de hábitos y de salud, donde, a partir del índice de masa corporal, se determinará una variable
