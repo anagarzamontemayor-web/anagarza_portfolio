@@ -51,6 +51,6 @@ GDP variable cuantitativa que indica el producto interno bruto de cada país con
 
 - [Reporte en formato ipynb](A1_2_Regresion_Lineal.ipynb)
 - [Reporte en formato html](A1_2_Regresion_Lineal.html)
-- [Base de datos original](A1.2 Felicidad y GDP.csv)
-- [Base de datos adicional](A1.2 Felicidad y GDP.csv)
+- [Base de datos original](A1_2_Felicidad_y_GDP.csv)
+- [Base de datos adicional](Variables_adicionales.csv)
 
