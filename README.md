@@ -37,17 +37,17 @@ Asimismo, se hará uso de la base de datos bajo el nombre “A1.2 Felicidad y GD
 
 Exploración y contextualización de los datos
 
-Expertos en economía, psicología, sociología y otras disciplinas analizan información interdisciplinaria sobre el bienestar y la felicidad de las personas el mundo. Para ello, el Centro de Investigación del Bienestar de la Universidad de Oxford, en colaboración con Gallup, la SDSN y un consejo editorial independiente clasifica anualmente a 146 países la evaluación del promedio de la calidad de vida de la población. Pidiendo a los encuesados calificar su vida actual en una escala del 0 al 10, donde 10 representa la mejor vida posible y 0 la peor. [1]
+Expertos en economía, psicología, sociología y otras disciplinas analizan información interdisciplinaria sobre el bienestar y la felicidad de las personas el mundo. Para ello, el Centro de Investigación del Bienestar de la Universidad de Oxford, en colaboración con Gallup, la SDSN y un consejo editorial independiente clasifica anualmente a 146 países la evaluación del promedio de la calidad de vida de la población. Pidiendo a los encuesados calificar su vida actual en una escala del 0 al 10, donde 10 representa la mejor vida posible y 0 la peor. 
 
-Si bien, estos resultados se basan en autopercepción, se consideran como factor clave el producto interno bruto (GDP), es decir, el conjunto de bienes y servicios producidos por un país durante un año. [2]
+Si bien, estos resultados se basan en autopercepción, se consideran como factor clave el producto interno bruto (GDP), es decir, el conjunto de bienes y servicios producidos por un país durante un año. 
 
 El conjunto de datos disponible cuenta con tres variables principales:
 
-País variable categórica que indica el país representante.
-Felicidad variable cuantitativa que indica la perceoición de felicidad en una escala de 0-10.
-GDP variable cuantitativa que indica el producto interno bruto de cada país con dolares como unidad.
+- `País` variable categórica que indica el país representante.
+- `Felicidad` variable cuantitativa que indica la perceoición de felicidad en una escala de 0-10.
+- `GDP` variable cuantitativa que indica el producto interno bruto de cada país con dolares como unidad.
 
-  Este proyecto incluye los siguientes documentos:
+   Este proyecto incluye los siguientes documentos:
 
 - [Reporte en formato ipynb](A1_2_Regresion_Lineal.ipynb)
 - [Reporte en formato html](A1_2_Regresion_Lineal.html)
