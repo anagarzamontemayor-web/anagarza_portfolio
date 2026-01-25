@@ -47,3 +47,10 @@ País variable categórica que indica el país representante.
 Felicidad variable cuantitativa que indica la perceoición de felicidad en una escala de 0-10.
 GDP variable cuantitativa que indica el producto interno bruto de cada país con dolares como unidad.
 
+  Este proyecto incluye los siguientes documentos:
+
+- [Reporte en formato ipynb](A1_2_Regresion_Lineal.ipynb)
+- [Reporte en formato html](A1_2_Regresion_Lineal.html)
+- [Base de datos original](A1.2 Felicidad y GDP.csv)
+- [Base de datos adicional](A1.2 Felicidad y GDP.csv)
+
