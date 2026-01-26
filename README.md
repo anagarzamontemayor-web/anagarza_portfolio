@@ -50,7 +50,7 @@ El conjunto de datos disponible cuenta con tres variables principales:
    Este proyecto incluye los siguientes documentos:
 
 - [Reporte en formato ipynb](A1_2_Regresion_lineal.ipynb)
-- [Reporte en formato html](A1_2_Regresion_Lineal.html)
+- [Reporte en formato html](A1_2_Regresion_lineal.html)
 - [Base de datos original](A1_2_Felicidad_y_GDP.csv)
 - [Base de datos adicional](Variables_adicionales.csv)
 
