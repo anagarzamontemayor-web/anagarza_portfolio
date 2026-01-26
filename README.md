@@ -31,15 +31,10 @@ La base de datos cuenta con la siguiente información:
 
 #  Regresión lineal
   
-Dede 2012 el World Happiness Report (WHR) ha propuesto una metodología para estimar un concepto tan complejo y dificil de medir, la felicidad. De manera que, a partir de estos estudios, factores económicos, sociales y de salud han sido analizados con posibles explicaciones basandose en las diferencias presentes entre países. Entre ellos, el producto interno bruto (GDP) y otros elementos relevantes.
+Dede 2012 el World Happiness Report (WHR) ha propuesto una metodología para estimar un concepto tan complejo y dificil de medir, la felicidad. De manera que, a partir de estos estudios, factores económicos, sociales y de salud han sido analizados con posibles explicaciones basandose en las diferencias presentes entre países. Entre ellos, el producto interno bruto (GDP) y otros elementos relevantes. Para ello, el Centro de Investigación del Bienestar de la Universidad de Oxford, en colaboración con Gallup, la SDSN y un consejo editorial independiente clasifica anualmente a 146 países la evaluación del promedio de la calidad de vida de la población. Pidiendo a los encuesados calificar su vida actual en una escala del 0 al 10, donde 10 representa la mejor vida posible y 0 la peor.
 
-Asimismo, se hará uso de la base de datos bajo el nombre “A1.2 Felicidad y GDP.csv”, presentándose información sobre el nivel de felicidad reportado en 2022 y el GDP correspondiente a 2020 para distintos países. Cabe destacar que, al trabajar con variables económicas, se considerarán transformaciones adecuadas para así trabajar con variables lineales. Analizando así, la conveniencia de utilizar o no una transformación.
-
-Exploración y contextualización de los datos
-
-Expertos en economía, psicología, sociología y otras disciplinas analizan información interdisciplinaria sobre el bienestar y la felicidad de las personas el mundo. Para ello, el Centro de Investigación del Bienestar de la Universidad de Oxford, en colaboración con Gallup, la SDSN y un consejo editorial independiente clasifica anualmente a 146 países la evaluación del promedio de la calidad de vida de la población. Pidiendo a los encuesados calificar su vida actual en una escala del 0 al 10, donde 10 representa la mejor vida posible y 0 la peor. 
-
-Si bien, estos resultados se basan en autopercepción, se consideran como factor clave el producto interno bruto (GDP), es decir, el conjunto de bienes y servicios producidos por un país durante un año. 
+Asimismo, se hará uso de la base de datos bajo el nombre “A1.2 Felicidad y GDP.csv”, presentándose información sobre el nivel de felicidad reportado en 2022 y el GDP correspondiente a 2020 para distintos países. De esta forma, se llevará a cabo un análisis de la relación entre la felicidad y variables económicas y sociales mediante modelos de regresión lineal, explorando tanto un enfoque de regresión lineal simple como uno de regresión lineal múltiple. Cabe destacar que, al trabajar con variables económicas, se considerarán transformaciones adecuadas para así trabajar con variables lineales. Analizando así, la conveniencia de utilizar o no una transformación.
+ 
 
 El conjunto de datos disponible cuenta con tres variables principales:
 
