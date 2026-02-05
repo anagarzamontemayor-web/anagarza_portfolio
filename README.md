@@ -55,7 +55,7 @@ El conjunto de datos disponible cuenta con tres variables principales:
 # Solución de problemas y selección de características
 En aplicaciones reales de ciencia de datos, rara vez se encuentran conjuntos preparados para utilizarse directamente en modelos predictivos. Presentándose en ocasiones escalas inconsistentes, valores atípicos y relaciones redundantes entre variables. Por lo cual, es esencial la selección adecuada de características que aporten información relevante para la predicción de una variable de interés; paso fundamental para la construcción de modelos interpretables.
 
-Asimismo, se hará uso de la base de datos bajo el nombre “A1.3 Calificaciones.csv”, presentándose información demográfica y académica de estudiantes de un curso, así como sus calificaciones parciales y finales.
+Asimismo, se hará uso de la base de datos bajo el nombre “Calificaciones.csv”, presentándose información demográfica y académica de estudiantes de un curso, así como sus calificaciones parciales y finales.
 
 De manera que, se buscará desarrollar un modelo de regresión lineal múltiple que permita predecir la calificación final. Analizando y enfrentando retos relacionados con el uso de datos reales y la adecuada selección de variables explicativas.
 
