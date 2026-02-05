@@ -51,3 +51,37 @@ El conjunto de datos disponible cuenta con tres variables principales:
 - [Base de datos original](A1_2_Felicidad_y_GDP.csv)
 - [Base de datos adicional](Variables_Adicionales.csv)
 
+
+# Solución de problemas y selección de características
+En aplicaciones reales de ciencia de datos, rara vez se encuentran conjuntos preparados para utilizarse directamente en modelos predictivos. Presentándose en ocasiones escalas inconsistentes, valores atípicos y relaciones redundantes entre variables. Por lo cual, es esencial la selección adecuada de características que aporten información relevante para la predicción de una variable de interés; paso fundamental para la construcción de modelos interpretables.
+
+Asimismo, se hará uso de la base de datos bajo el nombre “A1.3 Calificaciones.csv”, presentándose información demográfica y académica de estudiantes de un curso, así como sus calificaciones parciales y finales.
+
+De manera que, se buscará desarrollar un modelo de regresión lineal múltiple que permita predecir la calificación final. Analizando y enfrentando retos relacionados con el uso de datos reales y la adecuada selección de variables explicativas.
+
+La base de datos cuenta con la siguiente información:
+*  `Escuela` indica la escuela a la que pertenece el estudiante: *"Gabriel Pereira" (GP)* y *"Mousinho da Silveira" (MS)* .
+*  `Sexo`  indica *F* para femenino y *M* para masculino.
+*  `Edad`  indica la edad de los estudiantes en un rango de 15 a 22 años.
+*  `HorasDeEstudio`  indica las horas de estudio del estudiaente:
+      -  *1* representa menos de 2 horas.
+      -  *2* representa de 2 a 5 horas.
+      - *3* representa de 5 a 10 horas.
+      -  *4* representa más de 10 horas.
+*  `Reprobadas`  indica el número de materias reprobadas:
+      -  *0* representa que no hay reprobación.
+      -  *1*  representa que se ha reprobado una materia.
+      - *2*  representa que se han reprobado dos materias.
+      -  *4* representa tres o más materias reprobadas.
+*  `Internet` indica si un estudiante tiene acceso a internet en casa: *yes* para los estudiantes con acceso y *no* para estudiantes que no tienen acceso.
+*  `Faltas` indica el número de faltas de los estudiantes.
+*  `G1` indica la calificación del primer periodo en una escala de 0 a 20.
+*  `G2` indica la calificación del segundo periodo en una escala de 0 a 20.
+*  `G3` indica la calificación del tercer periodo en una escala de 0 a 20.
+ 
+  Este proyecto incluye los siguientes documentos:
+
+- [Reporte en formato ipynb](A1_3_Solucion_de_problemas.ipynb)
+- [Reporte en formato html](A1_3_Solucion_de_problemas.html)
+- [Base de datos](A1_3_Calificaciones.csv)
+
