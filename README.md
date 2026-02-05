@@ -83,5 +83,5 @@ La base de datos cuenta con la siguiente información:
 
 - [Reporte en formato ipynb](A1_3_Solucion_de_problemas.ipynb)
 - [Reporte en formato html](A1_3_Solucion_de_problemas.html)
-- [Base de datos](A1_3_Calificaciones.csv)
+- [Base de datos](Calificaciones.csv)
 
