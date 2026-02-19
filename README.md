@@ -87,7 +87,7 @@ La base de datos cuenta con la siguiente información:
 
 
 
-# La deserción escolar: análisis de sus determinantes socioeconómicos**
+# La deserción escolar: análisis de sus determinantes socioeconómicos
 
 *La deserción escolar en México conlleva historias que van más allá de cifras, estas se miden en niñas y niños que dejan de ir a clases y familias con incertidumbre por un futuro truncado.*
 
