@@ -85,3 +85,45 @@ La base de datos cuenta con la siguiente información:
 - [Reporte en formato html](A1_3_Solucion_de_problemas.html)
 - [Base de datos](Calificaciones.csv)
 
+
+
+# La deserción escolar: análisis de sus determinantes socioeconómicos**
+
+*La deserción escolar en México conlleva historias que van más allá de cifras, estas se miden en niñas y niños que dejan de ir a clases y familias con incertidumbre por un futuro truncado.*
+
+De acuerdo con la Red por los Derechos de la Infancia en México (REDIM), entre 2016 y 2024 el abandono escolar ha sido una problemática constante que refleja desigualdades estructurales. 
+
+En estados como Chiapas, Guerrero y Oaxaca, la deserción escolar se ha convertido en parte de la vida cotidiana, marcada por la pobreza, la violencia y la falta de oportunidades. Mientras tanto, entidades como la Ciudad de México o Nuevo León muestran realidades distintas, donde los niveles de abandono escolar son menores y las políticas educativas tienen mayor alcance. 
+
+*Entonces, la deserción escolar no es solo una decisión individual, sino un fenómeno estructural que moldea comunidades enteras.*
+
+Es en este punto donde el análisis estadístico de la deserción escolar cobra relevancia. Este tipo de modelos sintetiza, permiten comparar qué tan profundamente la deserción atraviesa la estructura social y económica de cada entidad federativa. 
+
+De manera que, el presente estudio parte de esta realidad: analizar, a nivel estatal, cómo condiciones económicas, sociales y de bienestar se asocian con distintos niveles de deserción escolar en México. Buscando identificar qué variables contribuyen de manera significativa a explicar las diferencias territoriales observadas. Adicionalmente, mediante un ejercicio de simulación, se modificarán variables socioeconómicas clave para evaluar cómo podrían variar los niveles estimados de deserción escolar ante distintos contextos.
+
+La base de datos utilizada en este estudio fue obtenida a partir de la integración de fuentes oficiales. Todas las variables socioeconómicas y de bienestar fueron recopiladas del portal estatal del [INEGI](https://www.inegi.org.mx/app/estatal/),con el fin de capturar condiciones estructurales relevantes en las 32 entidades federativas. 
+
+La base de datos cuenta con la siguiente información:
+
+
+*  `Entidad`  Nombre oficial de la entidad federativa.
+*  `Desercion`  Porcentaje de deserción escolar.
+*  `Sat_vida` Nivel promedio de satisfacción con la vida.
+*  `Pobreza`  Porcentaje de la población en situación de pobreza.
+*  `Pm25` Concentración promedio de partículas PM2.5 (µg/m³).
+*  `Homicidios` Tasa de desocupación (%).
+*  `Desocupacion` Tasa de homicidios por cada 100 mil habitantes.
+*  `Serv_salud` Porcentaje de población con acceso a servicios de salud.
+*  `Red_apoyo` Porcentaje de población que reporta contar con redes de apoyo.
+*  `Analfabeta_15` Número de personas mayores de 15 años que no saben leer ni escribir.
+*  `No_electricidad` Número de viviendas sin acceso a electricidad.
+*  `Viv_habitadas` Número total de viviendas habitadas en la entidad.
+
+
+Las variables expresadas en porcentaje representan proporciones relativas al total de viviendas de cada entidad federativa, lo cual permite comparabilidad territorial independientemente del tamaño poblacional.
+
+Este proyecto incluye los siguientes documentos:
+
+- [Reporte en formato ipynb](P1_Desercion_escolar.ipynb)
+- [Reporte en formato html](P1_Desercion_escolar.html)
+- [Base de datos](Desercion.csv)
