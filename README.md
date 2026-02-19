@@ -124,6 +124,6 @@ Las variables expresadas en porcentaje representan proporciones relativas al tot
 
 Este proyecto incluye los siguientes documentos:
 
-- [Reporte en formato ipynb](P1_Desercion.ipynb)
-- [Reporte en formato html](P1_Desercion_escolar.html)
+- [Reporte en formato ipynb](P1_Desercion_escola.ipynb)
+- [Reporte en formato html](P1_Desercion_escola.html)
 - [Base de datos](Desercion.csv)
