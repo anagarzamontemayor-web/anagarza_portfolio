@@ -127,3 +127,39 @@ Este proyecto incluye los siguientes documentos:
 - [Reporte en formato ipynb](P1_Desercion_escola.ipynb)
 - [Reporte en formato html](P1_Desercion_escola.html)
 - [Base de datos](Desercion.csv)
+
+
+  
+# Regresión logística y validación cruzada
+
+La pobreza en México conlleva historias que van más allá de cifras. De acuerdo con el INEGI, en 2024 29.6% de la población nacional (38.5 millones de personas) se encontraba en situación de pobreza multidimensional, mientras que 7 millones vivían en pobreza extrema. Estas cifras reflejan desigualdades estructurales que atraviesan comunidades enteras y condicionan su futuro. 
+
+La base de datos empleada en este estudio proviene de la integración de fuentes oficiales, con variables socioeconómicas y de bienestar recopiladas del portal estatal del INEGI. 
+
+Se trata de la misma base de datos utilizada en el trabajo previo “La deserción escolar: análisis de sus determinantes socioeconómicos”, correspondiente al periodo 2020–2022. Esto permite evaluar cómo factores estructurales recientes se relacionan con distintos niveles de abandono escolar en las 32 entidades federativas. Para la presente actividad se emplea la versión ya depurada del dataset, es decir, con el proceso de tratamiento y preparación de datos previamente realizado.
+
+Teniendo como objetivo el adaptar el análisis de la pobreza a un escenario de clasificación binaria, evaluando rigurosamente la calidad del modelo de regresión logística mediante métricas como la exactitud, la sensibilidad y la especificidad. Asimismo, introduciendo el uso de la validación cruzada como herramienta metodológica para obtener estimaciones más sólidas y confiables.
+
+La base de datos cuenta con la siguiente información:
+*  `Entidad`  Nombre oficial de la entidad federativa.
+*  `Pobreza`  Porcentaje de la población en situación de pobreza.
+*  `Pm25` Concentración promedio de partículas PM2.5 (µg/m³).
+*  `Homicidios` Tasa de desocupación (%).
+*  `Desocupacion` Tasa de homicidios por cada 100 mil habitantes.
+*  `Serv_salud` Porcentaje de población con acceso a servicios de salud.
+*  `Red_apoyo` Porcentaje de población que reporta contar con redes de apoyo.
+*  `Analfabeta_15` Número de personas mayores de 15 años que no saben leer ni escribir.
+*  `No_electricidad` Número de viviendas sin acceso a electricidad.
+*  `Viv_habitadas` Número total de viviendas habitadas en la entidad.
+*  `Desercion`  Porcentaje de deserción escolar.
+*  `Sat_vida` Nivel promedio de satisfacción con la vida.
+
+
+Las variables expresadas en porcentaje representan proporciones relativas al total de viviendas de cada entidad federativa, lo cual permite comparabilidad territorial independientemente del tamaño poblacional.
+
+Este proyecto incluye los siguientes documentos:
+
+- [Reporte en formato ipynb](A2_1_Regresion_Logistica.ipynb)
+- [Reporte en formato html](A2_1_Regresion_Logistica.html)
+- [Base de datos](Desercion_depurado.csv)
+
