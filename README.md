@@ -197,6 +197,8 @@ La base de datos cuenta con la siguiente información:
 
 
 Las variables expresadas en porcentaje representan proporciones relativas al total de viviendas de cada entidad federativa, lo cual permite comparabilidad territorial independientemente del tamaño poblacional.
+
+
 Este proyecto incluye los siguientes documentos:
 
 - [Reporte en formato ipynb](A2_2_LDA_Arboles.ipynb)
