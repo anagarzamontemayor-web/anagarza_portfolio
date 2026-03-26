@@ -243,3 +243,59 @@ Este proyecto incluye los siguientes documentos:
 - [Reporte en formato html](A2_3_Modelos_de_ensamble_SVM_y_redes_neuronales.html)
 - [Base de datos](Desercion_depurado.csv)
 
+# Análisis comparativo de modelos de clasificación para la detección de pobreza en entidades de México
+
+En México, la pobreza continúa siendo una de las problemáticas sociales más relevantes, al reflejar desigualdades estructurales que afectan directamente la calidad de vida de millones de personas. De acuerdo con el INEGI, en 2024 el 29.6% de la población nacional (38.5 millones de personas) se encontraba en situación de pobreza multidimensional, mientras que alrededor de 7 millones vivían en pobreza extrema.
+
+### **Enfoque del estudio**
+El presente trabajo tiene como propósito analizar el nivel de pobreza a partir de variables socioeconómicas, utilizando modelos de clasificación que permitan asignar cada observación a una categoría específica (pobreza alta o pobreza baja).
+
+### **Ficha técnica del estudio**
+
+*Fuente de datos:*
+Datos obtenidos de fuentes oficiales del [INEGI](https://www.inegi.org.mx/app/estatal/), a través de su portal estatal.
+
+*Periodo:*
+2020 – 2022
+
+*Origen del dataset:*
+Base de datos previamente utilizada en el estudio:
+“La deserción escolar: análisis de sus determinantes socioeconómicos”
+
+*Estado de los datos:*
+Dataset previamente depurados (sin modificaciones adicionales)
+
+*Variable objetivo:*
+Clasificación del nivel de pobreza:
+* Pobreza alta
+* Pobreza baja
+
+*Objetivo del modelo:*
+Desarrollar y comparar distintos modelos de clasificación para identificar cuál presenta mejor desempeño en la predicción del nivel de pobreza, así como analizar las diferencias entre ellos en términos de capacidad predictiva y complejidad.
+
+La base de datos cuenta con la siguiente información:
+
+| Variable          | Descripción                                                                 |
+|-------------------|-----------------------------------------------------------------------------|
+| **Entidad**       | Nombre oficial de la entidad federativa.                                    |
+| **Pobreza**       | Porcentaje de la población en situación de pobreza.                         |
+| **Pm25**          | Concentración promedio de partículas PM2.5 (µg/m³).                         |
+| **Homicidios**    | Tasa de homicidios por cada 100 mil habitantes.                             |
+| **Desocupacion**  | Tasa de desocupación (%).                                                   |
+| **Serv_salud**    | Porcentaje de población con acceso a servicios de salud.                    |
+| **Red_apoyo**     | Porcentaje de población que reporta contar con redes de apoyo.              |
+| **Analfabeta_15** | Número de personas mayores de 15 años que no saben leer ni escribir.        |
+| **No_electricidad** | Número de viviendas sin acceso a electricidad.                           |
+| **Viv_habitadas** | Número total de viviendas habitadas en la entidad.                          |
+| **Desercion**     | Porcentaje de deserción escolar.                                            |
+| **Sat_vida**      | Nivel promedio de satisfacción con la vida.                                 |
+
+
+Las variables expresadas en porcentaje representan proporciones relativas al total de viviendas de cada entidad federativa, lo cual permite comparabilidad territorial independientemente del tamaño poblacional.
+
+Este proyecto incluye los siguientes documentos:
+
+- [Reporte en formato ipynb](Proyecto_pobreza.ipynb)
+- [Reporte en formato html](Proyecto_pobreza.html)
+- [Base de datos](Proyecto_pobreza.csv)
+
