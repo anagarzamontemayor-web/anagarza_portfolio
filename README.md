@@ -297,5 +297,5 @@ Este proyecto incluye los siguientes documentos:
 
 - [Reporte en formato ipynb](Proyecto_pobreza.ipynb)
 - [Reporte en formato html](Proyecto_pobreza.html)
-- [Base de datos](Proyecto_pobreza.csv)
+- [Base de datos](pobreza_depurado.csv)
 
