@@ -347,8 +347,8 @@ Para ello se planteará el presente ejercicio como un **tutorial teórico**, exp
 
 Este proyecto incluye los siguientes documentos:
 
-- [Reporte en formato ipynb](Proyecto_pobreza.ipynb)
-- [Reporte en formato html](Proyecto_pobreza.html)
+- [Reporte en formato ipynb](PCA.ipynb)
+- [Reporte en formato html](PCA.html)
 
 
 # Sistema de Recomendación de Películas con Matrix Completion
