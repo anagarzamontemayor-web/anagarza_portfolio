@@ -391,7 +391,7 @@ Haz clic en el botón de abajo para acceder a la aplicación desplegada en **Str
 |-------|------------|---------|
 | **Carga de datos** | Lee los archivos `u.data` (ratings) y `u.item` (nombres de películas). | `recommender.py` |
 | **Tabla usuario película** | Arma una matriz donde cada fila es un usuario y cada columna una película. Los huecos se establecen como `NaN`. | `recommender.py` |
-| **Huecos** | Para lograr un funcionamiento óptimo en la nube, usamos solo los **50 usuarios más activos** y las **50 películas más populares**. | `recommender.py` |
+| **Datos** | Para lograr un funcionamiento óptimo en la nube, usamos solo los **50 usuarios más activos** y las **50 películas más populares**. | `recommender.py` |
 | **Interfaz** | Se muestra una lista de películas populares, se eligen al menos 5 y se califican con del 1 al 5. | `app.py` |
 | **Recomendación** | Cuando se presiona el botón, se busca usuarios con gustos parecidos y, basándose en sus gustos, predice qué otras películas podrían interesar. | `recommender.py` |
 | **Visualización** | Se muestra un heatmap que indica los huecos originales en la tabla. | `app.py` |
