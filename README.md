@@ -299,3 +299,142 @@ Este proyecto incluye los siguientes documentos:
 - [Reporte en formato html](Proyecto_pobreza.html)
 - [Base de datos](pobreza_depurado.csv)
 
+# Modelos de ensamble, SVM y redes neuronales
+
+De acuerdo con el INEGI, en 2024 29.6% de la población nacional (38.5 millones de personas) se encontraba en situación de pobreza multidimensional, mientras que 7 millones vivían en pobreza extrema. Estas cifras reflejan desigualdades estructurales que atraviesan comunidades enteras y condicionan su futuro. 
+
+La base de datos empleada en este estudio proviene de la integración de fuentes oficiales, con variables socioeconómicas y de bienestar recopiladas del portal estatal del [INEGI](https://www.inegi.org.mx/app/estatal/). 
+
+Se trata de la misma base de datos utilizada en el trabajo previo **“La deserción escolar: análisis de sus determinantes socioeconómicos”**, correspondiente al periodo 2020–2022.
+
+Para la presente actividad se emplea la versión ya depurada del dataset, es decir, con el proceso de tratamiento y preparación de datos previamente realizado y utilizado en proyectos anteriores.
+
+Teniendo como objetivo *entrenar y comparar distintos modelos avanzados de clasificación (basados en ensambles, márgenes máximos y redes neuronales) evaluando su desempeño en el mismo conjunto de datos* y reflexionando sobre las diferencias observadas en términos de capacidad predictiva, estabilidad y complejidad del modelo.
+
+La base de datos cuenta con la siguiente información:
+
+| Variable          | Descripción                                                                 |
+|-------------------|-----------------------------------------------------------------------------|
+| **Entidad**       | Nombre oficial de la entidad federativa.                                    |
+| **Pobreza**       | Porcentaje de la población en situación de pobreza.                         |
+| **Pm25**          | Concentración promedio de partículas PM2.5 (µg/m³).                         |
+| **Homicidios**    | Tasa de homicidios por cada 100 mil habitantes.                             |
+| **Desocupacion**  | Tasa de desocupación (%).                                                   |
+| **Serv_salud**    | Porcentaje de población con acceso a servicios de salud.                    |
+| **Red_apoyo**     | Porcentaje de población que reporta contar con redes de apoyo.              |
+| **Analfabeta_15** | Número de personas mayores de 15 años que no saben leer ni escribir.        |
+| **No_electricidad** | Número de viviendas sin acceso a electricidad.                           |
+| **Viv_habitadas** | Número total de viviendas habitadas en la entidad.                          |
+| **Desercion**     | Porcentaje de deserción escolar.                                            |
+| **Sat_vida**      | Nivel promedio de satisfacción con la vida.                                 |
+
+
+Las variables expresadas en porcentaje representan proporciones relativas al total de viviendas de cada entidad federativa, lo cual permite comparabilidad territorial independientemente del tamaño poblacional.
+
+Este proyecto incluye los siguientes documentos:
+
+- [Reporte en formato ipynb](A2_3_Modelos_de_ensamble_SVM_y_redes_neuronales.ipynb)
+- [Reporte en formato html](A2_3_Modelos_de_ensamble_SVM_y_redes_neuronales.html)
+- [Base de datos](Desercion_depurado.csv)
+
+# Análisis comparativo de modelos de clasificación para la detección de pobreza en entidades de México
+
+En México, la pobreza continúa siendo una de las problemáticas sociales más relevantes, al reflejar desigualdades estructurales que afectan directamente la calidad de vida de millones de personas. De acuerdo con el INEGI, en 2024 el 29.6% de la población nacional (38.5 millones de personas) se encontraba en situación de pobreza multidimensional, mientras que alrededor de 7 millones vivían en pobreza extrema.
+
+### **Enfoque del estudio**
+El presente trabajo tiene como propósito analizar el nivel de pobreza a partir de variables socioeconómicas, utilizando modelos de clasificación que permitan asignar cada observación a una categoría específica (pobreza alta o pobreza baja).
+
+### **Ficha técnica del estudio**
+
+*Fuente de datos:*
+Datos obtenidos de fuentes oficiales del [INEGI](https://www.inegi.org.mx/app/estatal/), a través de su portal estatal.
+
+*Periodo:*
+2020 – 2022
+
+*Origen del dataset:*
+Base de datos previamente utilizada en el estudio:
+“La deserción escolar: análisis de sus determinantes socioeconómicos”
+
+*Estado de los datos:*
+Dataset previamente depurados (sin modificaciones adicionales)
+
+*Variable objetivo:*
+Clasificación del nivel de pobreza:
+* Pobreza alta
+* Pobreza baja
+
+*Objetivo del modelo:*
+Desarrollar y comparar distintos modelos de clasificación para identificar cuál presenta mejor desempeño en la predicción del nivel de pobreza, así como analizar las diferencias entre ellos en términos de capacidad predictiva y complejidad.
+
+La base de datos cuenta con la siguiente información:
+
+| Variable          | Descripción                                                                 |
+|-------------------|-----------------------------------------------------------------------------|
+| **Entidad**       | Nombre oficial de la entidad federativa.                                    |
+| **Pobreza**       | Porcentaje de la población en situación de pobreza.                         |
+| **Pm25**          | Concentración promedio de partículas PM2.5 (µg/m³).                         |
+| **Homicidios**    | Tasa de homicidios por cada 100 mil habitantes.                             |
+| **Desocupacion**  | Tasa de desocupación (%).                                                   |
+| **Serv_salud**    | Porcentaje de población con acceso a servicios de salud.                    |
+| **Red_apoyo**     | Porcentaje de población que reporta contar con redes de apoyo.              |
+| **Analfabeta_15** | Número de personas mayores de 15 años que no saben leer ni escribir.        |
+| **No_electricidad** | Número de viviendas sin acceso a electricidad.                           |
+| **Viv_habitadas** | Número total de viviendas habitadas en la entidad.                          |
+| **Desercion**     | Porcentaje de deserción escolar.                                            |
+| **Sat_vida**      | Nivel promedio de satisfacción con la vida.                                 |
+
+
+Las variables expresadas en porcentaje representan proporciones relativas al total de viviendas de cada entidad federativa, lo cual permite comparabilidad territorial independientemente del tamaño poblacional.
+
+Este proyecto incluye los siguientes documentos:
+
+- [Reporte en formato ipynb](Proyecto_pobreza.ipynb)
+- [Reporte en formato html](Proyecto_pobreza.html)
+- [Base de datos](pobreza_depurado.csv)
+
+# Sistema de Recomendación de Películas con Matrix Completion
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://anagarzamontemayor-web-recomendador-peliculas-ia.streamlit.app)
+
+> *“La completación de matrices permite estimar valores faltantes en una matriz de ratings usuario-ítem, revelando patrones ocultos de preferencias sin necesidad de características explícitas.”*  
+> — [Dharshan Kumar, *Building a Recommendation System using Matrix Completion*](https://dharshankumar.medium.com/building-a-recommendation-system-using-matrix-completion-6b2ab5fc5604)
+
+---
+
+## 🧠 ¿Qué hace esta aplicación?
+
+Elige tus películas favoritas, califícalas del 1 al 5 y obtén **10 recomendaciones personalizadas** generadas mediante **matrix completion** sobre el dataset **MovieLens 100k**.  
+Lográndose mediante un modelo de imputación iterativa que completa la matriz usuario‑película y que encuentra recomendaciones similares a tu perfil cinematográfico.
+
+---
+
+## 🚀 ¡Pruébala ya!
+
+Haz clic en el botón de abajo para acceder a la aplicación desplegada en **Streamlit Cloud**:
+
+<p align="center">
+  <a href="https://anagarzamontemayor-web-recomendador-peliculas-ia.streamlit.app">
+    <img src="https://img.shields.io/badge/🎥%20Ver%20App%20en%20Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Abrir App">
+  </a>
+</p>
+
+
+---
+
+## 🛠️ Cómo funciona
+
+1. **Carga de datos** – Se lee `u.data` (ratings) y `u.item` (títulos).
+2. **Matriz usuario‑ítem** – Se construye una matriz dispersa con los ratings conocidos.
+3. **Matrix Completion** – Se aplica `IterativeImputer` de scikit‑learn sobre una muestra optimizada para garantizar rapidez.
+4. **Recomendación** – El nuevo usuario califica al menos 5 películas; el sistema busca los usuarios más similares mediante similitud coseno y predice los ratings faltantes.
+5. **Resultado** – Se muestran las 10 películas mejor valoradas que el usuario aún no ha visto.
+
+
+
+
+
+
+
+
+
