@@ -384,7 +384,7 @@ Haz clic en el botón de abajo para acceder a la aplicación desplegada en **Str
 
 1. **Carga de datos** – Se lee `u.data` (ratings) y `u.item` (títulos).
 2. **Matriz usuario‑ítem** – Se construye una matriz dispersa con los ratings conocidos.
-3. **Matrix Completion** – Se aplica `IterativeImputer` de scikit‑learn sobre una muestra optimizada para garantizar rapidez.
+3. **Matrix Completion** – Se aplica `IterativeImputer` de scikit‑learn.
 4. **Recomendación** – El nuevo usuario califica al menos 5 películas; el sistema busca los usuarios más similares y predice los ratings faltantes.
 5. **Resultado** – Se muestran las 10 películas mejor valoradas que el usuario aún no ha visto.
 
