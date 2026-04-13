@@ -360,7 +360,9 @@ Este proyecto incluye los siguientes documentos:
 
 
 ## Objetivo
+
 Se busca aplicar los fundamentos teóricos del matrix completion para construir, desde cero, un sistema interactivo que simule un sistema de recomendación que incluso sin atributos explícitos encuentre patrones de preferencias ocultos y ser capaz de brindar sugerencias personalizadas. 
+
 ---
 
 ## ¿Qué hace esta aplicación?
