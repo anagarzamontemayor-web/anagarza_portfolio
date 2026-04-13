@@ -368,7 +368,7 @@ Se busca aplicar los fundamentos teóricos del matrix completion para construir,
 ## ¿Qué hace esta aplicación?
 
 Elige tus películas favoritas, califícalas del 1 al 5 y se desplegarán **10 recomendaciones personalizadas** generadas mediante **matrix completion** sobre el dataset **MovieLens 100k**.  
-Lográndose mediante un modelo de imputación iterativa que completa la matriz usuario película y que encuentra recomendaciones similares a tu perfil cinematográfico.
+Lográndose mediante un modelo de imputación que completa la matriz usuario-película y encuentra recomendaciones similares a tu perfil cinematográfico.
 
 ---
 
