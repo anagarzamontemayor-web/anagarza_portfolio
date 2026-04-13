@@ -414,7 +414,7 @@ Lográndose mediante un modelo de imputación iterativa que completa la matriz u
 Haz clic en el botón de abajo para acceder a la aplicación desplegada en **Streamlit Cloud**:
 
 <p align="center">
-  <a href="https://anagarzamontemayor-web-recomendador-peliculas-ia.streamlit.app">
+  <a href="https://recomendador-peliculas-ia.streamlit.app/">
     <img src="https://img.shields.io/badge/🎥%20Ver%20App%20en%20Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Abrir App">
   </a>
 </p>
@@ -427,7 +427,7 @@ Haz clic en el botón de abajo para acceder a la aplicación desplegada en **Str
 1. **Carga de datos** – Se lee `u.data` (ratings) y `u.item` (títulos).
 2. **Matriz usuario‑ítem** – Se construye una matriz dispersa con los ratings conocidos.
 3. **Matrix Completion** – Se aplica `IterativeImputer` de scikit‑learn sobre una muestra optimizada para garantizar rapidez.
-4. **Recomendación** – El nuevo usuario califica al menos 5 películas; el sistema busca los usuarios más similares mediante similitud coseno y predice los ratings faltantes.
+4. **Recomendación** – El nuevo usuario califica al menos 5 películas; el sistema busca los usuarios más similares y predice los ratings faltantes.
 5. **Resultado** – Se muestran las 10 películas mejor valoradas que el usuario aún no ha visto.
 
 
