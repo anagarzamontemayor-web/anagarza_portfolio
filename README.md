@@ -358,12 +358,15 @@ Este proyecto incluye los siguientes documentos:
 > *“La completación de matrices permite estimar valores faltantes en una matriz de ratings usuario-ítem, revelando patrones ocultos de preferencias sin necesidad de características explícitas.”*  
 > — [Dharshan Kumar, *Building a Recommendation System using Matrix Completion*](https://dharshankumar.medium.com/building-a-recommendation-system-using-matrix-completion-6b2ab5fc5604)
 
+
+## Objetivo
+El objetivo de esta aplicación es aplicar los fundamentos teóricos del matrix completion para construir, desde cero, un sistema interactivo que simule un sistema de recomendación que incluso sin atributos explícitos encuentre patrones de preferencias ocultos y ser capaz de brindar sugerencias personalizadas. **  
 ---
 
-## 🧠 ¿Qué hace esta aplicación?
+## ¿Qué hace esta aplicación?
 
-Elige tus películas favoritas, califícalas del 1 al 5 y obtén **10 recomendaciones personalizadas** generadas mediante **matrix completion** sobre el dataset **MovieLens 100k**.  
-Lográndose mediante un modelo de imputación iterativa que completa la matriz usuario‑película y que encuentra recomendaciones similares a tu perfil cinematográfico.
+Elige tus películas favoritas, califícalas del 1 al 5 y se desplegará **10 recomendaciones personalizadas** generadas mediante **matrix completion** sobre el dataset **MovieLens 100k**.  
+Lográndose mediante un modelo de imputación iterativa que completa la matriz usuario película y que encuentra recomendaciones similares a tu perfil cinematográfico.
 
 ---
 
@@ -380,13 +383,16 @@ Haz clic en el botón de abajo para acceder a la aplicación desplegada en **Str
 
 ---
 
-## 🛠️ Cómo funciona
+## 🔹 Paso a paso del código
 
-1. **Carga de datos** – Se lee `u.data` (ratings) y `u.item` (títulos).
-2. **Matriz usuario‑ítem** – Se construye una matriz dispersa con los ratings conocidos.
-3. **Matrix Completion** – Se aplica `IterativeImputer` de scikit‑learn.
-4. **Recomendación** – El nuevo usuario califica al menos 5 películas; el sistema busca los usuarios más similares y predice los ratings faltantes.
-5. **Resultado** – Se muestran las 10 películas mejor valoradas que el usuario aún no ha visto.
+| Etapa | ¿Qué hace? | Archivo |
+|-------|------------|---------|
+| **Carga de datos** | Lee los archivos `u.data` (ratings) y `u.item` (nombres de películas). | `recommender.py` |
+| **Tabla usuario película** | Arma una matriz donde cada fila es un usuario y cada columna una película. Los huecos se establecen como `NaN`. | `recommender.py` |
+| **Huecos** | Para lograr funcionamiento   en la nube, usamos solo los **50 usuarios más activos** y las **50 películas más populares**. | `recommender.py` |
+| **Interfaz** | Se muestra una lista de películas populares, se eligen al menos 5 y se califican con del 1 al 5. | `app.py` |
+| **Recomendación** | Cuando se presiona el botón, se busca usuarios con gustos parecidos y, basándose en sus gustos, predice qué otras películas podrían interesar. | `recommender.py` |
+| **Visualización** | Se muestra un heatmap que indica los huecos originales en la tabla. | `app.py` |
 
 
 
