@@ -399,7 +399,19 @@ Haz clic en el botón de abajo para acceder a la aplicación desplegada en **Str
 
 
 
+# **K-Means Clustering / Hierarchical Clustering.**
 
+
+En la presente actividad se trabajará con un conjunto de datos sintético, y más adelante con la base de datos *NCI60*, con el objetivo de aplicar técnicas de agrupamiento no supervisado como lo es  **K-Means Clustering y Hierarchical Clustering.**
+
+Con ello se buscará comprender cómo estos algoritmos pueden identificar estructuras y patrones ocultos sin necesidad de usar etiquetas previas, utilizándose métricas de similitud, como la distancia euclídeana y la correlación, además de herramientas como dendrogramas policromáticos y mapas de calor (heatmaps) para la visualización.
+
+Para ello se planteará el presente ejercicio como un **tutorial teórico**, explicando el proceso para los procedimientos, tomando en cuenta tanto la preparación de los datos hasta la interpretación de los resultados.
+
+Este proyecto incluye los siguientes documentos:
+
+- [Reporte en formato ipynb](Clustering.ipynb)
+- [Reporte en formato html](Clustering.html)
 
 
 
