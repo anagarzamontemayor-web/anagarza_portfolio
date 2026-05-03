@@ -429,8 +429,8 @@ Este proyecto incluye los siguientes documentos:
 
 | Video | Descripción | Duración Aprox. | Enlace |
 |-------|-------------|-----------------|--------|
-| 🎬 **Pajarito Aprendiendo a Volar** | Animación principal del proceso de aprendizaje: el pajarito explora, choca con nubes, y gradualmente domina el vuelo hasta alcanzar el sol consistentemente. Incluye portadas cada 50 episodios con estadísticas acumuladas. | ~1:30 min | [pajarito_vuelo.mp4](pajarito_vuelo.mp4) |
-| 📊 **Progreso del Entrenamiento** | Dashboard animado con 4 gráficas que muestran la evolución en tiempo real: recompensa por episodio, tasa de éxito (%), tasa de exploración (ε), y pasos por episodio. Finaliza con un resumen de resultados. | ~2:20 min | [pajarito_graficas.mp4](descarga.mp4) |
+| 🎬 **Pajarito Aprendiendo a Volar** | Animación principal del proceso de aprendizaje: el pajarito explora, choca con nubes, y gradualmente domina el vuelo hasta alcanzar el sol consistentemente. Incluye portadas cada 50 episodios con estadísticas acumuladas. | ~1:30 min | [vuelo.mp4](pajarito_vuelo.mp4) |
+| 📊 **Progreso del Entrenamiento** | Dashboard animado con 4 gráficas que muestran la evolución en tiempo real: recompensa por episodio, tasa de éxito (%), tasa de exploración (ε), y pasos por episodio. Finaliza con un resumen de resultados. | ~2:20 min | [graficas.mp4](descarga.mp4) |
 
 🎨 Sistema de Recompensas
 
