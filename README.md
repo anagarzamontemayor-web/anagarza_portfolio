@@ -414,5 +414,30 @@ Este proyecto incluye los siguientes documentos:
 - [Reporte en formato html](Clustering.html)
 
 
+# **Reinforcement Learning**
 
+En la presente actividad se trabajó con un entorno de vuelo simulado, implementando el algoritmo de Q-Learning (Aprendizaje por Refuerzo) para entrenar a un agente inteligente (un pajaro) a navegar en un cielo con obstáculos hasta alcanzar el sol.
 
+Con ello se buscó comprender cómo un agente puede aprender mediante prueba y error, utilizando una **Q-table** para almacenar los valores de calidad de cada acción en cada estado, y una estrategia **ε-greedy** que balancea la exploración y la explotación durante el entrenamiento.
+
+Este proyecto incluye los siguientes documentos:
+
+- [Reporte en formato ipynb](R_Learning.ipynb)
+- [Reporte en formato html](R_Learning.html)
+
+📹 Videos del Proyecto
+
+| Video | Descripción | Duración Aprox. | Enlace |
+|-------|-------------|-----------------|--------|
+| 🎬 **Pajarito Aprendiendo a Volar** | Animación principal del proceso de aprendizaje: el pajarito explora, choca con nubes, y gradualmente domina el vuelo hasta alcanzar el sol consistentemente. Incluye portadas cada 50 episodios con estadísticas acumuladas. | ~1:30 min | [pajarito_vuelo.mp4](pajarito_vuelo.mp4) |
+| 📊 **Progreso del Entrenamiento** | Dashboard animado con 4 gráficas que muestran la evolución en tiempo real: recompensa por episodio, tasa de éxito (%), tasa de exploración (ε), y pasos por episodio. Finaliza con un resumen de resultados. | ~2:20 min | [pajarito_graficas.mp4](descarga.mp4) |
+
+🎨 Sistema de Recompensas
+
+| Evento | Recompensa | Efecto en el Aprendizaje |
+|--------|------------|--------------------------|
+| Llegar al sol ☀️ | **+30** | Refuerza fuertemente la ruta correcta |
+| Chocar con nube ⛈️ | **-15** | Penaliza severamente las colisiones |
+| Perderse en el cielo 🌫️ | **-2** | Penalización leve por no llegar |
+| Volar cerca del sol 🎯 | **+0.3** | Recompensa progresiva por acercarse |
+| Mantenerse volando ✨ | **+0.1** | Incentiva mantenerse en el aire |
