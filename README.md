@@ -427,6 +427,16 @@ Este proyecto incluye los siguientes documentos:
 
 📹 Videos del Proyecto
 
+🎬 Pajarito Aprendiendo a Volar
+
+<video width="700" controls>
+  <source src="pajarito_vuelo.mp4" type="video/mp4">
+  Tu navegador no soporta el elemento de video.
+</video>
+
+*Animación principal: el pajarito aprende a esquivar nubes y llegar al sol*
+
+
 | Video | Descripción | Duración Aprox. | Enlace |
 |-------|-------------|-----------------|--------|
 | 🎬 **Pajarito Aprendiendo a Volar** | Animación principal del proceso de aprendizaje: el pajarito explora, choca con nubes, y gradualmente domina el vuelo hasta alcanzar el sol consistentemente. Incluye portadas cada 50 episodios con estadísticas acumuladas. | ~1:30 min | [vuelo.mp4](pajarito_vuelo.mp4) |
