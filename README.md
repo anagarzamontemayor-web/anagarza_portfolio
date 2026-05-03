@@ -427,6 +427,7 @@ Este proyecto incluye los siguientes documentos:
 
 📹 Videos del Proyecto
 
+![Pajarito Volando](pajarito_vuelo.mp4)
 
 | Video | Descripción | Duración Aprox. | Enlace |
 |-------|-------------|-----------------|--------|
