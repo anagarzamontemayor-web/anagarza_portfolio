@@ -487,6 +487,7 @@ El objetivo general es aplicar técnicas de aprendizaje no supervisado (reducci�
 | 7 | Interpretación de los clusters – análisis clínico |
 | 8 | Discusión con artículo científico relevante |
 | 9 | Conclusión y reflexión final |
+| 10 | Referencias |
 
 
 Este proyecto incluye los siguientes documentos:
