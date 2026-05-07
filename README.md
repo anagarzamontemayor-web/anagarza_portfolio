@@ -445,3 +445,51 @@ Este proyecto incluye los siguientes documentos:
 | Perderse en el cielo 🌫️ | **-2** | Penalización leve por no llegar |
 | Volar cerca del sol 🎯 | **+0.3** | Recompensa progresiva por acercarse |
 | Mantenerse volando ✨ | **+0.1** | Incentiva mantenerse en el aire |
+
+
+
+# **Aprendizaje no supervisado en datos de expresión génica de cáncer de ovario (TCGA-OV)**
+
+
+
+El cáncer de ovario representa uno de los desafíos más significativos en la oncología ginecológica debido a su alta heterogeneidad y a que frecuentemente se diagnostica en etapas avanzadas. [1]
+
+A nivel molecular esta enfermedad no es una entidad única, sino un conjunto de subtipos con distintos perfiles de expresión genética que determina la respuesta al tratamiento. [1]
+
+![cancer](canceres_ginecologicos.gif)
+
+  Figura 1. Etapas de invasión tumoral en el tejido ovárico
+
+
+          
+Por lo cual, en el presente proyecto se llevará a cabo un análisis completo de de datos de expresión genética (RNAseq) y variables clínicas relacionadas al *Cáncer de Ovario* seleccionado de *TCGA* a través de la plataforma **UCSC Xena**.
+
+
+
+
+
+## **Objetivo del estudio**
+
+El objetivo general es aplicar técnicas de aprendizaje no supervisado (reducción de dimensionalidad con PCA y clustering con K-means y hierarchical clustering) para identificar agrupaciones naturales de pacientes basadas en su perfil de expresión genética. Posteriormente, se interpretarán estos grupos desde una perspectiva molecular y clínica.
+
+
+## **Estructura del reporte**
+
+
+| Sección | Contenido |
+|---------|-----------|
+| 1 | Planteamiento del problema y contexto de los datos |
+| 2 | Exploración y comprensión del conjunto de datos |
+| 3 | Preparación y tratamiento de los datos |
+| 4 | Reducción de dimensionalidad mediante PCA |
+| 5 | Construcción y comparación de modelos de clustering |
+| 6 | Interpretación de los clusters – análisis de genes |
+| 7 | Interpretación de los clusters – análisis clínico |
+| 8 | Discusión con artículo científico relevante |
+| 9 | Conclusión y reflexión final |
+
+
+Este proyecto incluye los siguientes documentos:
+
+- [Reporte en formato ipynb](P3.ipynb)
+- [Reporte en formato html](P3.html)
